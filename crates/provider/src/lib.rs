@@ -56,3 +56,5 @@ pub mod utils;
 
 #[doc(no_inline)]
 pub use alloy_network::{self as network, Network};
+
+use getrandom as _;
